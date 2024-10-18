@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Table</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border: 1px solid #ccc;
+        }
+
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        tr:nth-child(odd) {
+            background-color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+
+<table>
+    <thead>
+        <tr>
+            <th>Item</th>
+            <th>Description</th>
+            <th>Quantity</th>
+            <th>Price</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Apples</td>
+            <td>Fresh red apples</td>
+            <td>10</td>
+            <td>$3.00</td>
+        </tr>
+        <tr>
+            <td>Bananas</td>
+            <td>Ripe yellow bananas</td>
+            <td>6</td>
+            <td>$1.50</td>
+        </tr>
+        <tr>
+            <td>Oranges</td>
+            <td>Juicy navel oranges</td>
+            <td>5</td>
+            <td>$4.00</td>
+        </tr>
+    </tbody>
+</table>
+
+</body>
+</html>
